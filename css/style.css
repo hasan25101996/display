@@ -1,0 +1,185 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+color: black
+}
+.container {width:  1000px;margin:  0 auto;overflow:  hidden;}
+header{
+    padding: 20px 0;
+}
+.logo {width:  20%;float:  left;}
+.logo img{
+
+display:  inline-block;
+
+vertical-align:  middle;
+}
+.logo span{
+
+display:  inline-block;
+
+vertical-align:  middle;
+
+color: #737373;
+
+text-transform:  uppercase;
+
+font-weight:  600;
+
+font-size:  25px;
+}
+.social {width:  80%;float:  left;}
+.social ul{
+    text-align:  right;
+}
+.social ul li{
+    display:  inline-block;
+    list-style:  none;
+    position:  relative;
+}
+.social ul li .cursor{
+    position:  absolute;
+    top: 15px;
+    left:  8px;
+}
+.social ul li img{}
+.menu-section{
+    padding:  10px 0;
+}
+nav{
+    overflow:  hidden;
+    border-top: 1px solid #737373;
+    padding: 10px 0;
+}
+nav ul{}
+nav ul li{
+    list-style: none;
+    float:  left;
+}
+nav ul li a{
+    color: #737373;
+    text-transform:  uppercase;
+    text-decoration:  none;
+    display:  block;
+    padding: 5px 10px 5px 0;
+}
+.banner-section{background: url(../images/slider_background.png);background-repeat:  no-repeat;background-size:  cover;}
+.banner{
+	
+}
+.banner img{margin:  0 auto;transform: translateY(70px);display:  block;max-width:  100%;}
+
+.content-section {padding:  100px 0;}
+.content{
+    text-align:  center;
+}
+.content p{
+    max-width:  600px;
+    margin:  0 auto;
+    margin-bottom: 30px;
+     color: #757a7a;
+    
+}
+.btn{
+    background: #2cc26b;
+    display:  inline-block;
+    color:  #fff;
+    text-decoration:  none;
+    padding: 10px 30px;
+    text-transform:  uppercase;
+}
+
+
+
+.signup-section {
+    background: #332f30;
+    height: 125px;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    position: relative;
+}
+.signup-text{
+
+}
+.signup-text h2{
+  
+padding: 50px;
+  
+font-size: 20px;
+  
+width: 60%;
+  
+float: left;
+}
+
+.signup-text a{
+	
+text-transform: uppercase;
+	
+text-decoration: none;
+	
+background: #2cc26b;
+	
+color: white;
+	
+padding: 13px;
+	
+font-size: 15px;
+	
+/* left: 70%; */
+	
+bottom: 55px;
+	
+transform: translate(70%,33%);
+	
+position: absolute;
+}
+
+footer{
+    padding: 40px 0;
+}
+.copyright {
+
+width:  50%;
+
+float:  left;
+}
+.copyright p{
+	 color: #757a7a;
+
+font-size:  18px;
+}
+.footer-menu{
+
+}
+.footer-menu ul{
+
+text-align:  right;
+}
+.footer-menu li{
+    list-style:  none;
+    display:  inline-block;
+}
+.footer-menu a{
+
+    color: #757a7a;
+
+text-transform: uppercase;
+
+text-decoration: none;
+
+padding-left: 20px;
+
+font-size: 15px;
+
+position: relative;
+}
+.footer-menu a::after{content: "/";position:  absolute;right: -15px;}
